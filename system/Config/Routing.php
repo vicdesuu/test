@@ -39,9 +39,9 @@ class Routing extends BaseConfig
      * The default controller to use when no other controller has been
      * specified.
      *
-     * Default: 'Home'
+     * Default: 'Startseite'
      */
-    public string $defaultController = 'Home';
+    public string $defaultController = 'Startseite';
 
     /**
      * The default method to call on the controller when no other

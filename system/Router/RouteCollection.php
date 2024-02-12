@@ -44,7 +44,7 @@ class RouteCollection implements RouteCollectionInterface
      *
      * @var string
      */
-    protected $defaultController = 'Home';
+    protected $defaultController = 'Startseite';
 
     /**
      * The name of the default method to use
@@ -1553,7 +1553,7 @@ class RouteCollection implements RouteCollectionInterface
     private function processArrayCallableSyntax(string $from, array $to): string
     {
         // [classname, method]
-        // eg, [Home::class, 'index']
+        // eg, [Startseite::class, 'index']
         if (is_callable($to, true, $callableName)) {
             // If the route has placeholders, add params automatically.
             $params = $this->getMethodParams($from);
@@ -1562,7 +1562,7 @@ class RouteCollection implements RouteCollectionInterface
         }
 
         // [[classname, method], params]
-        // eg, [[Home::class, 'index'], '$1/$2']
+        // eg, [[Startseite::class, 'index'], '$1/$2']
         if (
             isset($to[0], $to[1])
             && is_callable($to[0], true, $callableName)

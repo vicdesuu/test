@@ -39,7 +39,7 @@ final class ControllerMethodReader
      *
      * @return list<array{route: string, handler: string}>
      */
-    public function read(string $class, string $defaultController = 'Home', string $defaultMethod = 'index'): array
+    public function read(string $class, string $defaultController = 'Startseite', string $defaultMethod = 'index'): array
     {
         $reflection = new ReflectionClass($class);
 
