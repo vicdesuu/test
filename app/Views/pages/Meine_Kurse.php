@@ -2,6 +2,7 @@
 
 <?= $this->section('content') ?>
 <section class="py-4">
+    <p><?= session('success') ?></p>
     <div class="container">
         <div class="d-flex justify-content-between mb-4">
             <h2>Kursauswahl</h2>
@@ -12,12 +13,10 @@
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="#">Informatik</a>
-                        <a class="dropdown-item" href="#">Elektrotechnik</a>
-                        <a class="dropdown-item" href="#">Maschinenbau</a>
-                        <!-- Weitere Studiengänge hier -->
+                        <a class="dropdown-item" href="#">BWL</a>
+                        <a class="dropdown-item" href="#">Japanologie</a>
                     </div>
                 </div>
-                <!-- Füge einen benutzerdefinierten CSS-Stil für den Button "Alle Kurse" hinzu -->
                 <a href="<?= base_url('Kurse_Student') ?>" class="btn btn-dark">Alle Kurse</a>
             </div>
         </div>
@@ -76,26 +75,26 @@
 
 <style>
     .white-border th, .white-border td {
-        border: 1px solid #4d4545; /* Weiße Umrandung für alle Zellen */
+        border: 1px solid #4d4545;
     }
     .white-border th {
-        border-bottom: 2px solid #524e4e; /* Weiße Unterrand für die Kopfzeile */
+        border-bottom: 2px solid #524e4e;
     }
     .modal-content {
-        background-color: #343a40; /* Dunkle Hintergrundfarbe */
-        color: white; /* Weiße Textfarbe */
+        background-color: #343a40;
+        color: white;
     }
 </style>
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        // Finde alle hoverbaren Spalten
+
         var hoverColumns = document.querySelectorAll('.hoverable-column');
 
-        // Füge jedem Element einen Klick-Eventlistener hinzu
+
         hoverColumns.forEach(function(column) {
             column.addEventListener('click', function() {
-                // Hier kannst du die gewünschte Aktion ausführen, z.B. Navigation zu einer anderen Seite
+
                 window.location.href = column.getAttribute('data-url');
             });
         });

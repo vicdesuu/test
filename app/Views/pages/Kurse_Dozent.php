@@ -2,6 +2,7 @@
 
 <?= $this->section('content') ?>
 <section class="py-4">
+    <p><?= session('success') ?></p>
     <div class="container">
         <div class="d-flex justify-content-between align-items-center mb-3">
             <h2 class="mb-0">Ihre Kurse</h2>
@@ -42,10 +43,10 @@
 
 <style>
     .white-border th, .white-border td {
-        border: 1px solid #4d4545; /* Weiße Umrandung für alle Zellen */
+        border: 1px solid #4d4545;
     }
     .white-border th {
-        border-bottom: 2px solid #524e4e; /* Weiße Unterrand für die Kopfzeile */
+        border-bottom: 2px solid #524e4e;
     }
 </style>
 

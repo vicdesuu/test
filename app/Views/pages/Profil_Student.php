@@ -5,7 +5,7 @@
     <div class="container">
         <div class="card custom-profile-card">
             <div class="card-header bg-dark text-white">
-                <h2>Profil - Prof. Dr. Andreas Becker</h2>
+                <h2>Profil - Emily Can</h2>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -14,9 +14,11 @@
                     </div>
                     <div class="col-md-8">
                         <h3>Persönliche Informationen</h3>
-                        <p><strong>Name:</strong> Emily Chen</p>
+                        <p><strong>Name:</strong> Emily Can</p>
+                        <p><strong>Matrikelnummer:</strong> EC1234 </p>
                         <p><strong>E-Mail:</strong> EC@space-uni.de</p>
                         <p><strong>Fächer:</strong> Informatik </p>
+                        <p><strong>Fachsemester:</strong> 1. </p>
                     </div>
                 </div>
             </div>

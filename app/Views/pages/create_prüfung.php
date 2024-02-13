@@ -33,7 +33,7 @@
                                     <option value="Hausarbeit">Hausarbeit</option>
                                 </select>
                             </div>
-                            <!-- Verstecktes Eingabefeld für die Personen ID mit dem Wert 2 -->
+
                             <input type="hidden" name="person_id" value="2">
                             <button type="submit" class="btn btn-primary" style="background-color: #2e1940;">Prüfung erstellen</button>
                             <a href="<?= base_url('Prüfungen_Dozent') ?>" class="btn btn-secondary">Abbrechen</a>

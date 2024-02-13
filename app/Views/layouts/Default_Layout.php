@@ -26,11 +26,11 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            animation: fadeInDown 1s ease-out; /* Animations-Effekt */
+            animation: fadeInDown 1s ease-out;
         }
 
         main {
-            flex-grow: 1; /* Hauptinhalt nimmt so viel Platz wie möglich ein */
+            flex-grow: 1;
         }
 
         footer {
@@ -38,7 +38,7 @@
             padding: 10px;
             text-align: center;
             width: 100%;
-            animation: fadeInUp 1s ease-out; /* Animations-Effekt */
+            animation: fadeInUp 1s ease-out;
         }
 
         @keyframes fadeInDown {
@@ -64,11 +64,11 @@
         }
 
         .navbar {
-            background-color: #2e1940; /* Farbe des Headers */
+            background-color: #2e1940;
             padding: 10px 0;
             width: 100%;
             display: flex;
-            justify-content: center; /* Elemente in der Mitte zentrieren */
+            justify-content: center;
         }
 
         .navbar ul {
@@ -83,13 +83,13 @@
         }
 
         .navbar ul li a {
-            color: rgba(209, 163, 255, 0.6);; /* Standardmäßig etwas ausgegraut */
+            color: rgba(209, 163, 255, 0.6);;
             text-decoration: none;
             font-size: 18px;
         }
 
         .navbar ul li:hover a {
-            color: #d1a3ff; /* Farbe der Headerschrift beim Hover */
+            color: #d1a3ff;
         }
 
         section {
@@ -101,15 +101,15 @@
         }
 
         footer p {
-            color: rgba(209, 163, 255, 0.6);; /* Standardmäßig etwas ausgegraut */
+            color: rgba(209, 163, 255, 0.6);;
         }
 
         footer p:hover {
-            color: #d1a3ff; /* Farbe der Schrift beim Hover */
+            color: #d1a3ff;
         }
 
         h1, h2, h3 {
-            color: #d1a3ff; /* Farbe der Headerschrift */
+            color: #d1a3ff;
         }
 
         banner {
@@ -139,7 +139,7 @@
         }
 
         .news-item {
-            margin-bottom: 20px; /* Füge einen Abstand von 20px nach unten hinzu */
+            margin-bottom: 20px;
             background-color: #343a40;
             color: #ffffff;
             padding: 20px;

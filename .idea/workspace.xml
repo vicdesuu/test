@@ -5,61 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b329b358-5c82-4470-b524-9e0cd6441c8e" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Dozent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Kurse_Dozent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Kurse_Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Meine_Kurse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Meine_Prüfungen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Profil_Dozent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Profil_Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Prüfungen_Dozent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Prüfungen_Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/create_kurs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controllers/create_prüfung.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/KursModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/NewsModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/PersonenModell.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/PrüfungsModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/StudiengangModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/Default_Layout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/Menu_Layout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/layouts/Menu_Layout_Dozent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/pages/Dozent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/pages/Kurse_Dozent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/pages/Kurse_Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/pages/Meine_Kurse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/pages/Meine_Prüfungen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/pages/Profil_Dozent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/pages/Profil_Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/pages/Prüfungen_Dozent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/pages/Prüfungen_Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/pages/Startseite.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/pages/Student.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/pages/create_kurs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Views/pages/create_prüfung.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/resources/css/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Config/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Config/Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Config/Routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/Routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Config/Routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/Routing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/BaseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/Home.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Startseite.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/Commands/Utilities/Routes/AutoRouterImproved/ControllerMethodReader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/Commands/Utilities/Routes/ControllerMethodReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/Commands/Utilities/Routes/ControllerMethodReader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/Config/Routing.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/Config/Routing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/Log/Logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/Log/Logger.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/Router/AutoRouter.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/Router/AutoRouter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/Router/RouteCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/Router/RouteCollection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/Test/ControllerTestTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/Test/ControllerTestTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/Test/ControllerTester.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/Test/ControllerTester.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/Test/FeatureTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/Test/FeatureTestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/Test/FeatureTestTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/Test/FeatureTestTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/layouts/Default_Layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/Default_Layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/layouts/Menu_Layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/Menu_Layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/layouts/Menu_Layout_Dozent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/Menu_Layout_Dozent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/pages/Kurse_Dozent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/pages/Kurse_Dozent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/pages/Kurse_Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/pages/Kurse_Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/pages/Meine_Kurse.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/pages/Meine_Kurse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/pages/Meine_Prüfungen.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/pages/Meine_Prüfungen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/pages/Profil_Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/pages/Profil_Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/pages/Prüfungen_Dozent.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/pages/Prüfungen_Dozent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/pages/Prüfungen_Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/pages/Prüfungen_Student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/pages/create_prüfung.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/pages/create_prüfung.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +116,9 @@
       <workItem from="1707656523270" duration="7262000" />
       <workItem from="1707664085545" duration="20262000" />
       <workItem from="1707702170239" duration="3384000" />
+      <workItem from="1707730934778" duration="773000" />
+      <workItem from="1707766096913" duration="79000" />
+      <workItem from="1707860283616" duration="4034000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
